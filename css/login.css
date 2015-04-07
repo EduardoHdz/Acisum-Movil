@@ -1,0 +1,138 @@
+/* PHONE */
+@media screen and (max-width: 709px) {
+body{
+ background-color: #214348;   
+}
+#global{		
+    margin: auto;
+    margin-top: 5%;
+    width: 300px;
+}
+
+#Central{
+    margin-top: 30px;
+    margin-left: 2%;
+    width: 300px;
+    height: 300px;
+    background-color: #ded3d3;
+    border-radius: 7px;
+    box-shadow: 3px 30px 100px #888080; 
+}
+#user{
+    height: 50px;
+    width: 250px;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px #383131; 
+}
+#pass{
+    width: 250px;
+    height: 50px;
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px #383131; 
+}
+#log{
+    margin-left: 50%;
+    margin-top: 10%;
+    background-color: #83867f;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    box-shadow: 2px 2px 15px #383131; 
+}
+#Logo{
+	/*display: inline-block;*/
+    /*margin-top: 20%;*/
+    /*margin-left: 30%;*/
+    /*margin-bottom: 10%;*/
+    width: 150px;
+    height: 150px;
+    /*border-radius: 7px;*/
+}
+#logo{
+    margin: auto;
+    /*margin-left: 33%;*/
+    width: 150;
+    height: 150;
+}
+}
+
+/* TABLET*/
+@media screen and (min-width: 710px) and (max-width: 2000px) {
+body{
+ background-color: #214348;   
+}
+#global{        
+    margin: auto;
+    margin-top: 5%;
+    width: 700px;
+}
+
+#Central{
+    float:right;
+    margin-top: 30px;
+    /*margin-left: 2%;*/
+    width: 300px;
+    height: 300px;
+    background-color: #ded3d3;
+    border-radius: 7px;
+    box-shadow: 3px 30px 100px #888080; 
+}
+#user{
+    height: 50px;
+    width: 250px;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px #383131; 
+}
+#pass{
+    width: 250px;
+    height: 50px;
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: cursive;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px #383131; 
+}
+#log{
+    margin-left: 50%;
+    margin-top: 10%;
+    background-color: #83867f;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    box-shadow: 2px 2px 15px #383131; 
+}
+#Logo{
+	float:left;
+    display: inline-block;
+    /*margin-top: 20%;*/
+    /*margin-left: 30%;*/
+    /*margin-bottom: 10%;*/
+    width: 150px;
+    height: 150px;
+    /*border-radius: 7px;*/
+}
+#logo{
+    margin: auto;
+    margin-top: 30px;
+    /*margin-left: 33%;*/
+    width: 300;
+    height: 300;
+}
+}
