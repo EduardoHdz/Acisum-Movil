@@ -1,13 +1,13 @@
 var loaded = function () {	
-	cargaruno("http://192.168.1.73/karaoke/top10.html");
-	cargardos("http://192.168.1.73/karaoke/songs.html");
+	cargaruno("http://192.168.0.104/karaoke/top10.html");
+	cargardos("http://192.168.0.104/karaoke/songs.html");
 	$("#canciones").addClass("selected");
 	menu();
 
 };
 
 var menu = function() {	
-	var dire="http://192.168.1.73/karaoke/";
+	var dire="http://192.168.0.104/karaoke/";
 	//funciones para las 3 opciones del menu
 	$("#canciones").on("click",function() {		
 		cargaruno(dire+"top10.html");

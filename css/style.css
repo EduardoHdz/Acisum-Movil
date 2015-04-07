@@ -1,23 +1,23 @@
 /*Phone*/
 /*Telefono promedio de forma vertical*/
+
 @media screen and (max-width: 500px){
 	html,body{
 		margin: 0px;        
         height: 100%;
 	}
 	.global{	
-        /*display: none;*/
 		background-color: #582e2e;
 		width: 100%;		
 		height: 100%;
 		margin: auto;
 	}
-	.divMenu{	
-		/*background-color: #582e2e;*/
+	.divMenu{		
+		background-color: #582e2e;
 		width: 100%;
 		height: 10%;	
 		position: relative;
-		top: 39%;
+		top: 45%;
 	}
 	.menu{
 		background-color: #776b6b;
@@ -38,16 +38,15 @@
 	.divPrin{
 		background-color: #582e2e;
 		width: 100%;
-		height: 40%;
+		height: 45%;
 		position: relative;
-		top:-5%;
+		top:-10%;
 	}
 	.divSecu{
 		background-color: #776b6b;
 		width: 100%;
 		height: 45.2%;
 		position: relative;
-		top:5.1%;
 	}
 	#generos{
 		background-color: #582e2e;
@@ -82,6 +81,7 @@
         max-width: 150px;
         margin: auto;
         font-size: 25px;
+        background-image: url(imagineDragons.jpg);
     }  
     #divTop{
     	background-color: #582e2e;      
@@ -89,13 +89,15 @@
         height: 80%;
         overflow-y: scroll;
         font-size: 25px;
+        
     }
     .lisTop {
     	background-color: #582e2e;
+        
     }
     #cuadroVideo{
     	background-color: #582e2e;    	
-    	width: 98%;
+    	width: 99%;
         height: 99%;
 	}
 	#lista{
@@ -169,42 +171,6 @@
         height: 30px; 
         margin-bottom: 5px;
         text-align: center;
-    }
-    .titulo{
-        background-color: #272828;
-        width: 100%;
-        height: 6%;
-        display: inline-block;
-        float: left;
-        margin: 0px;        
-        font-size: 15px;
-        color: #fff;
-    }
-    #acisum{
-        
-        width: 30%;
-        height: 100%;
-        float: left;
-    }
-    #aci{
-        margin-top: 5%;
-        margin-left: 10%;
-    }
-    #sesion{
-        
-        width: 50%;
-        height: 100%;
-        display: inline-block;
-        float: right;
-    }
-    #usua{
-        margin-top: 3%;
-        float: left;
-    }
-    #close{
-        margin-top: 0.5%;
-        margin-right: 5%; 
-        float: right;
     }   
 
 }
@@ -215,22 +181,26 @@
 	html,body{
 		margin: 0px;        
         height: 100%;
+        width: 100%;
+        background-image: url(fondo.jpg);
+       
+       
 	}
 	.global{		
-		background-color: #582e2e;
+		background-color: rgba(0, 0, 0, 0);
 		width: 100%;		
 		height: 100%;
 		margin: auto;
 	}
 	.divMenu{		
-		/*background-color: #582e2e;*/
+		background-color: rgba(0, 0, 0, 0.30);
 		width: 100%;
 		height: 10%;	
 		position: relative;
-		top: 41%;
+		top: 45%;
 	}
 	.menu{
-		background-color: #776b6b;
+		background-color: rgba(0, 0, 0, 0.70);
 		width: 32%;
 		height: 100%;
 		display: inline-block;
@@ -240,53 +210,64 @@
 		font-size: 2em;
 	}
 	.selected{
-		background-color: #214348;
+		background-color: rgba(196, 165, 165, 0.3);
+       
 	}	
 	#reproduciendo{
 		width: 35%;
 	}
 	.divPrin{
-		background-color: #582e2e;
+		background-color: rgba(0, 0, 0, 0.50);
 		width: 100%;
-		height: 42%;
+		height: 45%;
 		position: relative;
-		top:-6%;
+		top:-10%;
 	}
+    #demonsTop{
+        background-color: rgba(0, 0, 0, 0.10);
+        height: 100%;
+        width: 100%;
+    }
 	.divSecu{
-		background-color: #776b6b;
+        background-color: rgba(0, 0, 0, 0.50);
 		width: 100%;
 		height: 45.2%;
 		position: relative;
-		top:3.5%;
 	}
 	#generos{
-		background-color: #582e2e;
+		background-color: rgba(0, 0, 0, 0.50);
 		width: 46%;
-        height: 48%;        
+        height: 48%;  
+        font-size: 30px;
         overflow-y: scroll;
         float: left;
+        
     }
     #artistas{    	
-    	background-color: #582e2e;
+    	background-color: rgba(0, 0, 0, 0);
         width: 53%;
-        height: 48%;        
+        height: 48%;   
+        font-size: 30px;
         overflow-y: scroll;
         float: right;
     }
     #songs{ 
-    	background-color: #582e2e;
+    	background-color: rgba(0, 0, 0, 0.50);
         width: 100%;
-        height: 52%;                   
+        height: 52%; 
+        color: white;
+        font-size: 30px;
         overflow-y: scroll;
         position: relative;
         top: 1%;
         text-align: center;
+        float: left;
     }
     .gene {
     	background-color: #582e2e;
     } 
     #tituloTop{
-    	background-color: #582e2e;      
+    	background-color: rgba(0, 0, 0, 0);   
         width: 100%;
         height: 20%;
         max-width: 150px;
@@ -294,22 +275,22 @@
         font-size: 25px;
     }  
     #divTop{
-    	background-color: #582e2e;      
+    	background-color: rgba(0, 0, 0, 0);      
         width: 100%;
         height: 80%;
         overflow-y: scroll;
         font-size: 25px;
     }
     .lisTop {
-    	background-color: #582e2e;
+    	background-color: rgba(248, 117, 152, 0);
     }
     #cuadroVideo{
-    	background-color: #582e2e;    	
+    	background-color: rgba(0, 0, 0, 0.50);    
     	width: 100%;
         height: 100%;
 	}
 	#lista{
-		background-color: #582e2e;        
+		background-color: rgba(0, 0, 0, 0.30);       
         margin: 1%;
         width: 98%;
         height: 97%;        
@@ -320,20 +301,19 @@
     	background-color: #582e2e;
     }
     #cuadroComentar{
-    	background-color: #582e2e;      
+    	background-color: rgba(0, 0, 0, 0);     
         width: 100%;
         height: 100%;
-        font-size: 25px;
+        font-size: 22px;
         text-align: center;
     }
     #divComent{
-    	background-color: #582e2e;        
+    	background-color: rgba(0, 0, 0, 0);       
         width: 100%;
         height: 100%;                              
     }
     #forma{        
-        background-color: #00F;
-        background-color: #582e2e;
+        background-color: rgba(0, 0, 0, 0);
         width: 90%;
         height: 90%;
         margin: auto;
@@ -341,13 +321,16 @@
         top:5%;
     }    
     #nom{        
-        width: 98%;
+        width: 93%;
         position: relative;
+        height: 20%;
+        font-size: 50px;
         top:3%;
     }
     #com{
     	width: 98%;
     	height: 40%;
+        font-size: 50px;
         position: relative;
         top:10%;        
     }
@@ -359,14 +342,14 @@
         top:15%;
     }
     .divSong{       
-        background-color: #776b6b; 
+        background-color: rgba(248, 117, 152, 0);
         width: 100%;
         height: 20px; 
         margin-bottom: 5px;
         text-align: center;
     }
     .selecDivSong{       
-        background-color: #000; 
+        background-color: #7e7878; 
         width: 100%;
         height: 20px; 
         margin-bottom: 5px;
@@ -379,41 +362,24 @@
         height: 30px; 
         margin-bottom: 5px;
         text-align: center;
+    } 
+    #rock{
+    width: 96%;
+    height: 70px;
+    color: white;
+    font-size: 60px;
     }
-    .titulo{
-        background-color: #272828;
-        width: 100%;
-        height: 4.5%;
-        display: inline-block;
-        float: left;
-        margin: 0px;        
-        font-size: 18px;
-        color: #fff;
+    #pop{
+    width: 96%;
+    height: 70px;
+    color: white;
+    font-size: 60px;
+    background-color: 
     }
-    #acisum{
-        width: 30%;
-        height: 100%;
-        float: left;
-    }
-    #aci{
-        margin-top: 5%;
-        margin-left: 10%;
-    }
-    #sesion{         
-        width: 30%;
-        height: 100%;
-        display: inline-block;
-        float: right;
-    }
-    #usua{
-        margin-top: 5%;
-        float: left;
-    }
-    #close{
-        margin-top: 3%;
-        margin-right: 5%; 
-        float: right;
-
+    #banda{
+    width: 96%;
+    height: 40px;
+    color: white;
     }
 
 }
@@ -423,8 +389,8 @@
 @media screen and (min-width: 595px) and (max-width: 700px) and (max-height: 800px){
 	html,body{
 		margin: 0px;
-		background-color: #214348;
 		height: 100%;
+       
 	}
 	.global{		
 		background-color: #214348;
@@ -437,19 +403,18 @@
 		width: 80%;
 		height: 12%;
 		position: relative;
-		top: 10%;
+		top: 5%;
 		margin: auto;		
 	}
 	.menu{
 		background-color: #776b6b;
 		width: 32.5%;
-		height: 130%;
+		height: 100%;
 		display: inline-block;
 		text-align: center;
 		font-weight: bold;
 		font-size: 15px;
 		color: #fff;
-		margin-top:-15%;
 	}
 	.selected{
 		background-color: #582e2e;
@@ -462,7 +427,7 @@
 		width: 49%;
 		height: 60%;		
 		position: relative;
-		top: 25%;	
+		top: 15%;	
 		float: left;			
 	}
 	.divSecu{
@@ -471,7 +436,7 @@
 		height: 60%;
 		display: inline-block;
 		position: relative;
-		top: 25%;
+		top: 15%;
 		float: right;
 	}
 	#generos{
@@ -513,7 +478,7 @@
         width: 100%;
         height: 80%;
         overflow-y: scroll;
-        font-size: 15px;
+        font-size: 25px;
     }
     .lisTop {
     	background-color: #582e2e;
@@ -594,41 +559,6 @@
         height: 30px; 
         margin-bottom: 5px;
         text-align: center;
-    }
-    .titulo{
-        background-color: #272828;
-        width: 100%;
-        height: 10%;
-        display: inline-block;
-        float: left;
-        margin: 0px;
-        font-size: 13px;
-        color: #fff;
-    }
-    #acisum{        
-        width: 13%;
-        height: 100%;
-        float: left;
-    }
-    #aci{
-        margin-left: 10%;
-        margin-top: 10%;
-    }
-    #sesion{
-        width: 30%;
-        height: 100%;
-        display: inline-block;
-        float: right;
-    }
-    #usua{
-        margin-top: 5%;
-        float: left;
-    }
-    #close{
-        margin-top: 2%;
-        margin-right: 5%; 
-        float: right;
-
     }  
 
 }
@@ -640,6 +570,8 @@
 		margin: 0px;
 		background-color: #214348;
 		height: 100%;
+        background-image: url(background3.jpg);
+        width: 100%;
 	}
 	.global{		
 		background-color: #214348;
@@ -808,40 +740,5 @@
         margin-bottom: 5px;
         text-align: center;
     }
-    .titulo{
-        background-color: #272828;
-        width: 100%;
-        height: 5%;
-        display: inline-block;
-        float: left;
-        margin: 0px;
-        color: #fff;
-    }
-    #acisum{
-        width: 13%;
-        height: 100%;
-        float: left;
-    }
-    #aci{
-        margin-top: 5%;
-        margin-left: 10%;
-    }
-    #sesion{         
-        width: 20%;
-        height: 100%;
-        display: inline-block;
-        float: right;
-    }
-    #usua{
-        margin-top: 4%;
-        float: left;
-    }
-    #close{
-        margin-top: 1%;
-        margin-right: 5%; 
-        float: right;
-
-    }
-
 
 }

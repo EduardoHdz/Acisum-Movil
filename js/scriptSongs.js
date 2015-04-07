@@ -1,5 +1,5 @@
 ﻿var loaded = function () {
-	/*var url1 = "http://192.168.1.73/karaoke/canciones.php";
+	/*var url1 = "http://192.168.0.104/karaoke/canciones.php";
 	$.get(url1, function(data){
 		var json1 = JSON.parse(data);
 		if(json1.length>=1){

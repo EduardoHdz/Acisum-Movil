@@ -7,7 +7,7 @@ var loaded = function () {
 		$("#video").attr('codecs', 'avc1.42E01E,mp4a.40.2');
 		$("#video").attr('poster', 'img/comentar.png');
 	});	*/
-	/*var url = "http://192.168.1.73/karaokeAna/playlist.php";
+	/*var url = "http://192.168.0.104/karaokeAna/playlist.php";
 	$.get(url, function(data){
 		var json = JSON.parse(data);
 		if(json.length>=1){	

@@ -1,6 +1,6 @@
 var loaded = function () {
 
-	var url = "http://192.168.1.73/karaoke/playlist.php";
+	var url = "http://192.168.0.104/karaoke/playlist.php";
 	$.get(url, function(data){
 		var json = JSON.parse(data);		
 		if(json.length>=1){
